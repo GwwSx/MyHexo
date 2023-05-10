@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.7.10">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="http://example.com/"/>
+  
+  <link rel="canonical" href="http://example.com/2023/05/04/test/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -31,15 +31,19 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>My Blog</title>
-  <meta name="keywords" content="">
+  <title>JAVA基础及应用 - My Blog</title>
+  <meta name="keywords" content="null">
   <meta desc name="description" content="My Blog - 抬起_头来 - My Blog">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="My Blog">
-<meta property="og:url" content="http://example.com/index.html">
+  
+<meta property="og:type" content="article">
+<meta property="og:title" content="JAVA基础及应用">
+<meta property="og:url" content="http://example.com/2023/05/04/test/index.html">
 <meta property="og:site_name" content="My Blog">
+<meta property="og:description" content="中英文切换：ctrl + shift + F 学习路线GOF(23种设计模式)创建型模式单例模式12&#x2F;&#x2F;饿汉式&#x2F;&#x2F;懒汉式  简单工厂模式123456&#x2F;&#x2F;静态工厂类&#x2F;&#x2F;  维护一个静态方法，根据参数返回具体产品类的实例(返回类型是抽象产品类型)。&#x2F;&#x2F;抽象产品类&#x2F;&#x2F;  定义产品字段和方法(操作数a,b和运算方法result())&#x2F;&#x2F;具体产品类&#x2F;&#x2F;  继承抽象产品类，实现具体运算方法  工厂模式1234">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2023-05-04T07:00:56.737Z">
+<meta property="article:modified_time" content="2023-05-04T07:08:38.669Z">
 <meta property="article:author" content="抬起_头来">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -2162,7 +2166,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin begin-->
     
     <!-- Custom Files bodyBegin end-->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2431,7 +2435,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="full" class='cover-wrapper  dock' style="display: ;">
+      <div id="none" class='cover-wrapper post dock' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg"></div>
 
@@ -2496,7 +2500,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </div>
 </div>
 
-        <div id="scroll-down" style="display: ;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+        <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
       </div>
     
   
@@ -2506,100 +2510,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-  
-  <section class="post-list">
-    
-      
-        
-        
-          
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/10/GOF/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="My Blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="My Blog">
-    <meta itemprop="description" content="">
-  </span>
-  
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/05/10/GOF/"  itemprop="url">
-        GOF
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        GOF
-Creational 模式 (创建型)构建模式(Builder)概览：
-
-UML图：
-Structural模式(结构型)适配器模式（Adapter）生产实例：
-
-
-springboot中的HandleAdapter
-HttpServlet
-
-
-适配结构：
-
-
-类适配模式
-对象适配模式
-
-
-基本组织：
-
-
-Target（目标抽象类）  原本支持的业务类
-Adaptee（适配者类）  需...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-05-10T10:35:32+08:00">2023-05-10</time>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/05/10/GOF/' itemprop="url">
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
   <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/04/test/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="My Blog">
@@ -2609,59 +2520,441 @@ Adaptee（适配者类）  需...
     <meta itemprop="description" content="">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/05/04/test/"  itemprop="url">
+    
+    
+      <h1 class="title" itemprop="name headline">
         JAVA基础及应用
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        中英文切换：ctrl + shift + F
-学习路线GOF(23种设计模式)创建型模式单例模式12//饿汉式//懒汉式
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">请设置文章作者</p>
+  </a>
+</div>
 
-简单工厂模式123456//静态工厂类//  维护一个静态方法，根据参数返回具体产品类的实例(返回类型是抽象产品类型)。//抽象产品类//  定义产品字段和方法(操作数a,b和运算方法result())//具体产品类//  继承抽象产品类，实现具体运算方法
+          
+        
+          
+            
 
-工厂模式1...
-      
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-05-04T15:00:56+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：May 4, 2023</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
     
   </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <p>中英文切换：ctrl + shift + F</p>
+<h1 id="学习路线"><a href="#学习路线" class="headerlink" title="学习路线"></a>学习路线</h1><h1 id="GOF-23种设计模式"><a href="#GOF-23种设计模式" class="headerlink" title="GOF(23种设计模式)"></a>GOF(23种设计模式)</h1><h2 id="创建型模式"><a href="#创建型模式" class="headerlink" title="创建型模式"></a>创建型模式</h2><h3 id="单例模式"><a href="#单例模式" class="headerlink" title="单例模式"></a>单例模式</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//饿汉式</span><br><span class="line">//懒汉式</span><br></pre></td></tr></table></figure>
+
+<h3 id="简单工厂模式"><a href="#简单工厂模式" class="headerlink" title="简单工厂模式"></a>简单工厂模式</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">//静态工厂类</span><br><span class="line">//  维护一个静态方法，根据参数返回具体产品类的实例(返回类型是抽象产品类型)。</span><br><span class="line">//抽象产品类</span><br><span class="line">//  定义产品字段和方法(操作数a,b和运算方法result())</span><br><span class="line">//具体产品类</span><br><span class="line">//  继承抽象产品类，实现具体运算方法</span><br></pre></td></tr></table></figure>
+
+<h3 id="工厂模式"><a href="#工厂模式" class="headerlink" title="工厂模式"></a>工厂模式</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//抽象工厂类</span><br><span class="line">//  定义一个创建产品的抽象方法。</span><br><span class="line">//具体工厂类</span><br><span class="line">//  继承抽象工厂类，实现创建产品的抽象方法。</span><br><span class="line">//抽象产品类</span><br><span class="line">//  定义抽象产品方法。</span><br><span class="line">//具体产品类</span><br><span class="line">//  继承抽象产品类，实现抽象产品方法。</span><br></pre></td></tr></table></figure>
+
+<h3 id="抽象工厂模式"><a href="#抽象工厂模式" class="headerlink" title="抽象工厂模式"></a>抽象工厂模式</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//抽象工厂类</span><br><span class="line">//  定义多个创建产品的抽象方法。有多少种产品就写多少个方法。</span><br><span class="line">//具体工厂类</span><br><span class="line">//  继承抽象工厂类，实现创建产品的抽象方法。</span><br><span class="line">//抽象产品类</span><br><span class="line">//  定义抽象产品方法。</span><br><span class="line">//具体产品类</span><br><span class="line">//  继承抽象产品类，实现抽象产品方法。</span><br></pre></td></tr></table></figure>
+
+<h3 id="建造者模式"><a href="#建造者模式" class="headerlink" title="建造者模式"></a>建造者模式</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//指挥者类</span><br><span class="line">//  提供一个指挥生产的方法produce，传入建造者，其内调用建造者的建造方法。</span><br><span class="line">//抽象建造者类</span><br><span class="line">//  提供建造产品各部件的抽象方法和一个返回产品的方法。</span><br><span class="line">//具体建造者类</span><br><span class="line">//  继承抽象建造者类，并持有一个产品实例以供获取。实现产品各部分抽象建造方法和返回产品的抽象方法。</span><br><span class="line">//产品类</span><br><span class="line">// 持有产品各部件的一个集合实例，有一个增加部件的add方法，一个用于展现组成部件的show方法。</span><br></pre></td></tr></table></figure>
+
+<h3 id="原型模式"><a href="#原型模式" class="headerlink" title="原型模式"></a>原型模式</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//涉及克隆方法  浅拷贝  深拷贝原理</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="结构型模式"><a href="#结构型模式" class="headerlink" title="结构型模式"></a>结构型模式</h2><p>​	享元模式（<strong>Flyweight</strong>）</p>
+<p>​	桥接模式（<strong>Bridge</strong>）</p>
+<p>​	门面模式（<strong>Facade</strong>）</p>
+<p>​	合成模式（Composite）</p>
+<p>​	装饰模式（Decorator）</p>
+<h2 id="行为型模式"><a href="#行为型模式" class="headerlink" title="行为型模式"></a>行为型模式</h2><p>​	责任链模式</p>
+<p>​	模板模式</p>
+<p>​	观察者模式</p>
+<p>​	策略模式</p>
+<p>​	迭代器模式</p>
+<h1 id="JVM"><a href="#JVM" class="headerlink" title="JVM"></a>JVM</h1><h1 id="JAVE-EE"><a href="#JAVE-EE" class="headerlink" title="JAVE EE"></a>JAVE EE</h1><h2 id="逻辑-x2F-断路与，或-关系"><a href="#逻辑-x2F-断路与，或-关系" class="headerlink" title="逻辑&#x2F;断路与，或 关系"></a>逻辑&#x2F;断路与，或 关系</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">逻辑与——&amp;——都为true才为true，有一false就为false，符号两边都看</span><br><span class="line"></span><br><span class="line">短路与——&amp;&amp;——都为true才为true，有一false就为false，前面有false就略后面</span><br><span class="line"></span><br><span class="line">逻辑或——|——有一true就为true，符合两边都看</span><br><span class="line"></span><br><span class="line">短路或——||——有一true就为true，前面有true就略后面</span><br><span class="line"></span><br><span class="line">非——!——取反</span><br><span class="line"></span><br><span class="line">逻辑异或——^——相同为false，异为true</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://pic3.zhimg.com/80/v2-1ec5b0fc2d1bd73bfd90836d65f9ea86_1440w.webp" class="lazyload" data-srcset="https://pic3.zhimg.com/80/v2-1ec5b0fc2d1bd73bfd90836d65f9ea86_1440w.webp" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="img"></p>
+<h2 id="JAVA-Double类型丢失精度问题"><a href="#JAVA-Double类型丢失精度问题" class="headerlink" title="JAVA Double类型丢失精度问题"></a>JAVA Double类型丢失精度问题</h2><h2 id="StringBuilder"><a href="#StringBuilder" class="headerlink" title="StringBuilder"></a>StringBuilder</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"> <span class="type">String</span> <span class="variable">name</span> <span class="operator">=</span> <span class="string">&quot;A&quot;</span>;</span><br><span class="line">    String[] vos = &#123;<span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>, <span class="string">&quot;D&quot;</span>, <span class="string">&quot;E&quot;</span>, <span class="string">&quot;F&quot;</span>&#125;;</span><br><span class="line">    <span class="type">StringBuilder</span> <span class="variable">sb</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">StringBuilder</span>(name);</span><br><span class="line">    <span class="keyword">for</span> (String vo:vos) &#123;</span><br><span class="line">        sb.append(<span class="string">&quot;&#x27;,&#x27;&quot;</span>);</span><br><span class="line">        sb.append(vo);</span><br><span class="line"><span class="comment">// A&#x27;,&#x27;B&#x27;,&#x27;C&#x27;,&#x27;D&#x27;,&#x27;E&#x27;,&#x27;F  </span></span><br><span class="line">        </span><br></pre></td></tr></table></figure>
+
+<h2 id="字符串切分"><a href="#字符串切分" class="headerlink" title="字符串切分"></a>字符串切分</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">	 * 分割字符串以数组返回</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> picUrl</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">	 */</span></span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">static</span> ArrayList&lt;String&gt; <span class="title function_">getPicturePath</span><span class="params">(String picUrl)</span>&#123;</span><br><span class="line">		ArrayList&lt;String&gt; list = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;String&gt;();</span><br><span class="line">	    <span class="keyword">if</span>(!<span class="string">&quot;&quot;</span>.equals(picUrl) || picUrl.length() &gt; <span class="number">0</span>)&#123;</span><br><span class="line">	    	String[] url = picUrl.split(<span class="string">&quot;,&quot;</span>);</span><br><span class="line">	    	<span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; url.length; i++)&#123;</span><br><span class="line">	    		list.add(url[i]);</span><br><span class="line">	    	&#125;</span><br><span class="line">	    &#125;</span><br><span class="line">		<span class="keyword">return</span> list;</span><br><span class="line">	&#125;</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="数组转集合"><a href="#数组转集合" class="headerlink" title="数组转集合"></a>数组转集合</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ArrayList&lt; DeliveryorderVO&gt; expectArrayList = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;DeliveryorderVO&gt;(vos.length);</span><br><span class="line">   Collections.addAll(expectArrayList, vos);</span><br></pre></td></tr></table></figure>
+
+<h2 id="Stream流应用"><a href="#Stream流应用" class="headerlink" title="Stream流应用"></a>Stream流应用</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/MinggeQingchun/article/details/123184273">Stream流应用</a></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 设置VO属性</span></span><br><span class="line">Arrays.stream(freightvos).forEach(freightInfoVO -&gt; freightInfoVO.setRef_is_check(<span class="number">0</span>));</span><br><span class="line"><span class="comment">// 收集成新的集合</span></span><br><span class="line">Arrays.stream(vos).map(StockOrganizationVO::getOrganization_id).collect(Collectors.toList());</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="SpringBoot"><a href="#SpringBoot" class="headerlink" title="SpringBoot"></a>SpringBoot</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">测试类注解：</span><br><span class="line"><span class="meta">@RunWith(SpringRunner.class)</span></span><br><span class="line"><span class="meta">@SpringBootTest</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="mybatis-plus分页插件应用"><a href="#mybatis-plus分页插件应用" class="headerlink" title="mybatis-plus分页插件应用"></a>mybatis-plus分页插件应用</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="过滤器执行显示访问类相关信息"><a href="#过滤器执行显示访问类相关信息" class="headerlink" title="过滤器执行显示访问类相关信息"></a>过滤器执行显示访问类相关信息</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">log.info(<span class="string">&quot;过滤器正在执行...&quot;</span>);</span><br><span class="line"><span class="type">ServletRequestAttributes</span> <span class="variable">attributes</span> <span class="operator">=</span> (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();</span><br><span class="line"><span class="type">HttpServletRequest</span> <span class="variable">request</span> <span class="operator">=</span> attributes.getRequest();</span><br><span class="line"><span class="comment">//String characterEncoding = request.getCharacterEncoding();</span></span><br><span class="line"><span class="comment">// 记录日志</span></span><br><span class="line"><span class="type">Signature</span> <span class="variable">signature</span> <span class="operator">=</span> proceedingJoinPoint.getSignature();</span><br><span class="line">log.info(<span class="string">&quot;IP: &#123;&#125;, Port: &#123;&#125;, URI: &#123;&#125;, Method: &#123;&#125;&quot;</span>, request.getRemoteAddr(), request.getServerPort(),</span><br><span class="line">        request.getRequestURI(), request.getMethod());</span><br><span class="line">log.info(<span class="string">&quot;Class: &#123;&#125;, Method: &#123;&#125;, Args: &#123;&#125;&quot;</span>, signature.getDeclaringTypeName(), signature.getName(),</span><br><span class="line">        Arrays.toString(proceedingJoinPoint.getArgs()));</span><br></pre></td></tr></table></figure>
+
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//字段输出为null或者空时输出&#x27;&#x27;</span></span><br><span class="line"><span class="meta">@JSONField(serialzeFeatures= SerializerFeature.WriteNullStringAsEmpty)</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h1><h2 id="JSONArray按指定字段排序"><a href="#JSONArray按指定字段排序" class="headerlink" title="JSONArray按指定字段排序"></a>JSONArray按指定字段排序</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">array.sort(Comparator.comparing(obj -&gt; ((JSONObject) obj).getString(<span class="string">&quot;ts&quot;</span>)).reversed());</span><br></pre></td></tr></table></figure>
+
+<h2 id="FastJSON"><a href="#FastJSON" class="headerlink" title="FastJSON"></a>FastJSON</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//字段输出为null或者空时输出&#x27;&#x27;</span></span><br><span class="line"><span class="meta">@JSONField(serialzeFeatures= SerializerFeature.WriteNullStringAsEmpty)</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h1><h2 id="1-linux命令git-log命令全解析-小太阳…的博客-CSDN博客"><a href="#1-linux命令git-log命令全解析-小太阳…的博客-CSDN博客" class="headerlink" title="1.linux命令git log命令全解析_小太阳…的博客-CSDN博客"></a>1.linux命令<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_46074961/article/details/126400431">git log命令全解析_小太阳…的博客-CSDN博客</a></h2><p>docker命令：<br>查看docker： docker ps   -a(查看所有)<br>重启docker： docker restart dockerid<br>进入docker： docker exec -it docker名称 &#x2F;bin&#x2F;bash<br>springboot进入dokcer: docker exec -it docker名称 &#x2F;bin&#x2F;sh<br>查看docker运行情况: docker status<br>停止docker： docker stop  dockerid<br>退出docker： exit<br>查看docker镜像：docker images<br>创建docker：<br>docker run -d -p 8090:8080 –restart&#x3D;always  -e JAVA_OPTS&#x3D;’-Xms1024m -Xmx1024m’ -v &#x2F;opt&#x2F;local&#x2F;containers&#x2F;yunzDailyReport&#x2F;etlogs:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;etlogs   –name yunz_daily_report  yitengshidai&#x2F;tomcat:0.1<br>springboot创建docker容器：<br>docker run –name permission-platform –net&#x3D;host -v &#x2F;opt&#x2F;local&#x2F;containers&#x2F;permission-platform&#x2F;vilsale:&#x2F;vilsale –restart&#x3D;always -d vilsale&#x2F;runjar:latest<br>复制docker日志到&#x2F;目录下：<br>docker cp tomcat-datatran:&#x2F;usr&#x2F;local&#x2F;tomcat&#x2F;etlogs&#x2F;backup&#x2F;log-datatran-villagesale_error.2022-06-12-15.log &#x2F;</p>
+<p>查看容器内存:free -h</p>
+<p>查看服务器磁盘情况: top<br>查看磁盘空间：df -h<br>查看文件大小: ls -lh<br>重写文件内容空: echo “” &gt; filename<br>查看当前路径：pwd<br>下载文件：sz log-datatran-villagesale_error.2022-06-12-15.log</p>
+<p>查看当前文件夹大小: du -sh<br>截取指定时间段日志到新的文件中：<br>sed -n ‘&#x2F;2022-11-22 14:06:14.083&#x2F;,&#x2F;2022-11-22 14:10:39.897&#x2F;p’ log-vis_error.log  &gt; newlog.log</p>
+<p>重启nginx：nginx -s reload </p>
+<p>创建文件夹: mkdir 文件名<br>上传文件: rz -be </p>
+<p>解压缩：unzip report.zip<br>显示行数：set: number<br>删除文件命令：rm -rf report.zip<br>关键字查询文件：<br>    cat -n test.log |grep “地形”  得到关键日志的 行号<br>    cat -n test.log |tail -n +92|head -n 20  tail -n +92表示查询92行之后的日志<br>    grep “地形”  test.log<br>精确查询关键字文件：<br>    tail -n 2000 log-vis.log | grep -w “2022-10-24 17:40:33.934”<br>查询第一次出现记录的行数：m显示首次出现行数<br>grep -m  1 “未查询到”  log-datatran-villagesale.2023-02-23.log | tail -1<br>查询最近一次出现记录的行数：(2表示显示最近两行)<br>grep “未查询到”  log-datatran-villagesale.2023-02-23.log | tail  -n 2</p>
+<p>查看关键字出现前后10后</p>
+<p>cat catalina.out | grep -n  -A10 -B10  “关键字”</p>
+<p>备注： A after B before</p>
+<h2 id="2-Linux-网卡配置"><a href="#2-Linux-网卡配置" class="headerlink" title="2.Linux-网卡配置"></a>2.Linux-网卡配置</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//进入边界页面</span></span><br><span class="line"><span class="selector-tag">nmtui</span></span><br><span class="line"><span class="comment">//查看ip命令</span></span><br><span class="line"><span class="selector-tag">ifconfig</span> </span><br><span class="line"><span class="comment">//检测是否存在网卡命令服务</span></span><br><span class="line"><span class="selector-tag">echo</span> $<span class="selector-tag">PATH</span></span><br><span class="line"><span class="comment">//检测是否能查到</span></span><br><span class="line"><span class="selector-tag">cd</span> /<span class="selector-tag">sbin</span></span><br><span class="line"><span class="selector-tag">ls</span> /<span class="selector-tag">sbin</span> | <span class="selector-tag">grep</span> <span class="selector-tag">ifconfig</span> </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//yum无法检索到镜像列表 （问题）</span></span><br><span class="line"><span class="selector-tag">cd</span> /<span class="selector-tag">etc</span>/<span class="selector-tag">sysconfig</span>/<span class="selector-tag">network-scripts</span> </span><br><span class="line"><span class="selector-tag">vi</span> <span class="selector-tag">ifcfg-ens33</span></span><br><span class="line"><span class="selector-tag">ONBOOT</span>=<span class="selector-tag">no</span> 改为<span class="selector-tag">yes</span></span><br><span class="line"><span class="comment">//重启</span></span><br><span class="line"><span class="selector-tag">reboot</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="Jenkins"><a href="#Jenkins" class="headerlink" title="Jenkins"></a>Jenkins</h1><h3 id="springboot搭建"><a href="#springboot搭建" class="headerlink" title="springboot搭建"></a>springboot搭建</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Tasks:</span></span><br><span class="line">	<span class="string">clean</span></span><br><span class="line">	<span class="string">bootJar</span> <span class="string">-Penv=test</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="ROCKETMQ"><a href="#ROCKETMQ" class="headerlink" title="ROCKETMQ"></a>ROCKETMQ</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/yjwyu/article/details/122864075">RocketMQ在Windows安装_yjwyu的博客-CSDN博客_windows安装rocketmq</a></p>
+<p><strong>1.下载</strong></p>
+<p><a target="_blank" rel="noopener" href="https://rocketmq.apache.org/dowloading/releases/">下载 Apache RocketMQ 版本 - Apache RocketMQ:https://rocketmq.apache.org/dowloading/releases/</a></p>
+<p><strong>2.检验MQ是否安装成功</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">windows：</span><br><span class="line">启用nameServer：mqnamesrv </span><br><span class="line">启用broker： mqbroker </span><br></pre></td></tr></table></figure>
+
+<p><strong>3.验证RocketMq功能</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span>启用nameServer</span><br><span class="line">	mqnamesrv </span><br><span class="line"><span class="number">2.</span>启用broker</span><br><span class="line">	mqbroker -n localhost<span class="punctuation">:</span><span class="number">9876</span> autoCreateTopicEnable=<span class="literal"><span class="keyword">true</span></span>（一定要添加 autoCreateTopicEnable=<span class="literal"><span class="keyword">true</span></span>必坑）</span><br><span class="line">	不添加报错：org.apache.rocketmq.client.exception.MQClientException<span class="punctuation">:</span> No route info of this topic<span class="punctuation">,</span> TopicTest</span><br><span class="line">	博客：https<span class="punctuation">:</span><span class="comment">//blog.csdn.net/jiangyu1013/article/details/81478754</span></span><br><span class="line">	为了简化操作命令可在mqbroker.cmd中命令行添加默认启动命令参数如下图</span><br><span class="line"><span class="number">3.</span>启用消费者</span><br><span class="line">	bin目录下打开cmd窗口	<span class="number">1.</span>set NAMESRV_ADDR=localhost<span class="punctuation">:</span><span class="number">9876</span></span><br><span class="line">    					<span class="number">2.</span>tools.cmd org.apache.rocketmq.example.quickstart.Consumer</span><br><span class="line"><span class="number">4.</span>启用生产者</span><br><span class="line">	bin目录下打开cmd窗口	<span class="number">1.</span>set NAMESRV_ADDR=localhost<span class="punctuation">:</span><span class="number">9876</span></span><br><span class="line">						<span class="number">2.</span>tools.cmd org.apache.rocketmq.example.quickstart.Producer</span><br></pre></td></tr></table></figure>
+
+<p><strong>5.修改配置</strong></p>
+<p>mq默认启动分配2g</p>
+<p>编辑runserver.cmd，runbroker.cmd配置文件</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rem set <span class="string">&quot;JAVA_OPT=%JAVA_OPT% -server -Xms2g -Xmx2g -Xmn1g -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m&quot;</span></span><br><span class="line">    set <span class="string">&quot;JAVA_OPT=%JAVA_OPT% -server -Xms256m -Xmx512m&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>6.日志</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rocketMQ日志打印位置：C:\Users\29508\logs\rocketmqlogs</span><br></pre></td></tr></table></figure>
+
+<p><strong>7.MQ可视化插件地址</strong><a target="_blank" rel="noopener" href="https://github.com/apache/rocketmq-dashboard">可视化插件</a>]</p>
+<p><strong>8.windows下安装可视化插件</strong>[<a target="_blank" rel="noopener" href="https://www.cnblogs.com/sxex/p/15899874.html">windows下安装启动rocketmq并配置可视化界面 - sxex - 博客园 (cnblogs.com)</a>]</p>
+<p><strong>9.<a target="_blank" rel="noopener" href="https://www.cnblogs.com/yunnn/p/16383013.html">windows环境 安装失败原因指南</a></strong></p>
+<p><strong>10.启动可视化界面</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -jar target/rocketmq-dashboard-1.0.1-SNAPSHOT.jar</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="ELK"><a href="#ELK" class="headerlink" title="ELK"></a>ELK</h1><h2 id="elasticsearch"><a href="#elasticsearch" class="headerlink" title="elasticsearch"></a>elasticsearch</h2><p>1.下载历史版本网址</p>
+<figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://www.elastic.co/cn/downloads/past-releases/kibana-6-4-0</span><br></pre></td></tr></table></figure>
+
+<p>2.设置允许跨域</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">http.cors.enabled:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">http.cors.allow-origin:</span> <span class="string">&quot;*&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>3.可视化界面elasticsearch-head-masters</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">启动：npm</span> <span class="string">run</span> <span class="string">start</span>  </span><br></pre></td></tr></table></figure>
+
+<p>4.kibana 可视化界面</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. GET /student/max/oneClass?_source=age,name,sex</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="MYSQL"><a href="#MYSQL" class="headerlink" title="MYSQL"></a>MYSQL</h1><h2 id="函数应用"><a href="#函数应用" class="headerlink" title="函数应用"></a>函数应用</h2><h3 id="1-时间函数"><a href="#1-时间函数" class="headerlink" title="1.时间函数"></a>1.时间函数</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">更新时间语法：</span><br><span class="line">UPDATE freight_info SET load_ts = DATE_FORMAT(NOW(),&#x27;%Y-%m-%d %H:%m:%s&#x27;) where </span><br><span class="line">截取时间年月日语法：</span><br><span class="line">date_format(ddo.TS ,&#x27;%Y-%m-%d&#x27; )</span><br><span class="line">查询范围时间语法：</span><br><span class="line">DATEDIFF(ddo.TS,NOW()) &lt;=0 AND DATEDIFF( ddo.TS,NOW())&gt;-7 </span><br><span class="line">------------------------------------------------------------</span><br><span class="line">Mysql 查询今天，这周，这个月，今年的数据</span><br><span class="line">https://www.cnblogs.com/austinspark-jessylu/p/11143137.html</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-大写函数"><a href="#2-大写函数" class="headerlink" title="2.大写函数"></a>2.大写函数</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> bd_vehicle <span class="keyword">SET</span> VEHICLE_PLATENUM <span class="operator">=</span> UCASE(VEHICLE_PLATENUM);</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-分组数量函数"><a href="#3-分组数量函数" class="headerlink" title="3.分组数量函数"></a>3.分组数量函数</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- 原理 COUNT(field,NULL)   COUNT函数默认将字段不为NULL看作为一个基数</span></span><br><span class="line"><span class="built_in">COUNT</span>(IF(IFNULL(putinb.is_unload, <span class="string">&#x27;0&#x27;</span>),<span class="string">&#x27;1&#x27;</span>,<span class="keyword">NULL</span>))</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-运算符优先级"><a href="#4-运算符优先级" class="headerlink" title="4.运算符优先级"></a>4.运算符优先级</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">优先级 运算符</span><br><span class="line">(最高)  !</span><br><span class="line">     -（负号）,~（按位取反）</span><br><span class="line">     ^（按位异或）</span><br><span class="line">     *,/(DIV),%(MOD)</span><br><span class="line">     +,-</span><br><span class="line">     &gt;&gt;,&lt;&lt;</span><br><span class="line">     &amp;</span><br><span class="line">     |</span><br><span class="line">     =(比较运算),&lt;=&gt;,&lt;,&lt;=,&gt;,&gt;=,!=,&lt;&gt;,IN,IS NULL,LIKE,REGEXP</span><br><span class="line">    BETWEEN AND,CASE,WHEN,THEN,ELSE</span><br><span class="line">    NOT</span><br><span class="line">    &amp;&amp;,AND</span><br><span class="line">    XOR</span><br><span class="line">    ||,OR</span><br><span class="line">(最低)    =(赋值运算),:=</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-OR-和-AND优先级说明"><a href="#5-OR-和-AND优先级说明" class="headerlink" title="5.OR 和 AND优先级说明"></a>5.OR 和 AND优先级说明</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">MySQL中，AND的执行优先级高于OR。也就是说，在没有小括号()的限制下，总是优先执行AND语句，再执行OR语句。</span><br><span class="line">1.</span><br><span class="line">select * from table where  条件1 AND 条件2 OR 条件3</span><br><span class="line">等价于</span><br><span class="line">select * from table where  ( 条件1 AND 条件2 )  OR 条件3</span><br><span class="line"></span><br><span class="line">2.</span><br><span class="line">select * from table where  条件1 AND  条件2 OR 条件3 AND 条件4</span><br><span class="line">等价于</span><br><span class="line">select * from table where (  条件1 AND  条件2  ) OR (  条件3 AND 条件4  ) </span><br></pre></td></tr></table></figure>
+
+<h3 id="6-InnoDB数据库存储格式"><a href="#6-InnoDB数据库存储格式" class="headerlink" title="6.InnoDB数据库存储格式"></a>6.InnoDB数据库存储格式</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">https://www.cnblogs.com/wade-luffy/p/6289183.html</span><br><span class="line"></span><br><span class="line">ALTER TABLE table_name ROW_FORMAT = DEFAULT</span><br><span class="line">ALTER TABLE table_name ROW_FORMAT = COMPACT</span><br></pre></td></tr></table></figure>
+
+<h3 id="7-mysql-root用户给普通用户授权"><a href="#7-mysql-root用户给普通用户授权" class="headerlink" title="7.mysql root用户给普通用户授权"></a>7.mysql root用户给普通用户授权</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grant all on 数据库.* to &#x27;用户名&#x27;@&#x27;%&#x27; identified by &#x27;密码&#x27; with grant option;</span><br></pre></td></tr></table></figure>
+
+<h3 id="8-mysql外键约束检查关闭及开启"><a href="#8-mysql外键约束检查关闭及开启" class="headerlink" title="8.mysql外键约束检查关闭及开启"></a>8.mysql外键约束检查关闭及开启</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">SET foreign_key_checks = 0;  // 关闭外键约束检查</span><br><span class="line"></span><br><span class="line">DROP TABLE  `lms_course_quiz`;  // 删表</span><br><span class="line"></span><br><span class="line">SET foreign_key_checks = 1; // 再开启外键约束检查</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="9-组合多条记录合并为一行函数group-concat"><a href="#9-组合多条记录合并为一行函数group-concat" class="headerlink" title="9.组合多条记录合并为一行函数group_concat"></a><strong>9.组合多条记录合并为一行函数group_concat</strong></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">select pro.PRODUCE_NAME , group_concat( f1.FEATURE_NAME)</span><br><span class="line">from bdp_feature  f  </span><br><span class="line">JOIN bdp_feature f1 on f1.FEATURE_FID = f.FEATURE_ID</span><br><span class="line">JOIN rela_profeature rp on rp.FEATURE_ID = f1.FEATURE_ID</span><br><span class="line">JOIN bdp_produce pro on rp.PRODUCE_ID = pro.PRODUCE_ID</span><br><span class="line">where pro.PRODUCE_ID = &#x27;9f1b2cb629b838f23b61a67d0809a25c&#x27;</span><br></pre></td></tr></table></figure>
+
+<h2 id="10新增字段"><a href="#10新增字段" class="headerlink" title="10新增字段"></a>10新增字段</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">alter table `bd_stock_organization` add column `auto_bill` int(2) null DEFAULT &#x27;0&#x27;  COMMENT &#x27;是否参与自动配车开单业务  0(默认) 否 1 是&#x27; </span><br><span class="line"></span><br><span class="line">————————————————</span><br><span class="line">版权声明：本文为CSDN博主「人间寥寥情难诉」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。</span><br><span class="line">原文链接：https://blog.csdn.net/weixin_44609018/article/details/113942865</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="Server层特性"><a href="#Server层特性" class="headerlink" title="Server层特性"></a>Server层特性</h2><h3 id="binlog"><a href="#binlog" class="headerlink" title="binlog"></a>binlog</h3><p>定义</p>
+<blockquote>
+<p>官话:：包含描述数据库更改的“事件”，存放数据库操作的变更记录</p>
+<p>理解：以二进制的存储方式记录mysql增删改语句的日志</p>
+</blockquote>
+<p>目的</p>
+<blockquote>
+<p>1.复制</p>
+<p>2.备份+恢复</p>
+</blockquote>
+<h3 id="写入机制"><a href="#写入机制" class="headerlink" title="写入机制"></a>写入机制</h3><p>写入逻辑</p>
+<blockquote>
+<p>执行过程中把事务先把事务写入到Binlog Cache ，事务提交的时候，再把Binlog Cache写入到Binlog文件中</p>
+<p>binlog的写入单位是 events ,  一个events必须包含一个完整的事务 ，一个事务的binlog是不可被拆分的</p>
+</blockquote>
+<p>​	</p>
+<h4 id="相关参数"><a href="#相关参数" class="headerlink" title="相关参数"></a>相关参数</h4><h4 id="策略模式"><a href="#策略模式" class="headerlink" title="策略模式"></a>策略模式</h4><h3 id="主从复制"><a href="#主从复制" class="headerlink" title="主从复制"></a>主从复制</h3><h1 id="XML配置类"><a href="#XML配置类" class="headerlink" title="XML配置类"></a>XML配置类</h1><p>基本信息</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">作用：对数据进行标记（结构化数据）、存储 &amp; 传输</span><br><span class="line">特性：</span><br><span class="line">	<span class="number">1.</span>灵活性: 可自定义标签，文档结构</span><br><span class="line">	<span class="number">2.</span>自我描叙性</span><br><span class="line">		XML文档即 一个纯文本文件，代码结构清晰，适合人类阅读</span><br><span class="line">		有文本处理能力的软件都可以处理XML</span><br><span class="line">	<span class="number">3.</span>可扩展性: 可在不中断解析，应用程序的情况下进行扩展（*）</span><br><span class="line">	<span class="number">4.</span>可跨平台数据传输: 可以不兼容的系统间交换数据，降低了复杂性（*）</span><br><span class="line">	<span class="number">5.</span>数据共享: XML 以纯文本进行存储，独立于软硬件和应用程序的数据存储方式，使得不同的系统都能访问XML</span><br><span class="line">————————————————</span><br><span class="line">原文链接：https:<span class="comment">//blog.csdn.net/Jason_Julie/article/details/112606917</span></span><br></pre></td></tr></table></figure>
+
+<p>解析方式</p>
+<table>
+<thead>
+<tr>
+<th>解析方式</th>
+<th>原理</th>
+<th>类型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>基于文档驱动</td>
+<td>在解析XML文档前，需先将整个XML文档加载到内存中</td>
+<td>DOM方式</td>
+</tr>
+<tr>
+<td>基于事件驱动</td>
+<td>根据不同需求事件(检索，修改，删除等)去执行不同解析操作(不需要把整个XML 文档加载到内存中)</td>
+<td>SAX方式，PULL方式</td>
+</tr>
+</tbody></table>
+<p>区别</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">DOM解析方式：</span><br><span class="line">	核心思想：基于文档驱动，在解析XML文档前，先将整个XML文档存储到内存中，然后再解析</span><br><span class="line">	优点：</span><br><span class="line">		操作整个XML文档的效率高</span><br><span class="line">		可随时，多次访问已解析的文档</span><br><span class="line">	缺点：</span><br><span class="line">		耗内存，时间</span><br><span class="line">	适用场景：</span><br><span class="line">		适合XML文档较小，需频繁操作 解析文档，多次访问文档的情况</span><br><span class="line">		对于移动端，内存资源非常宝贵，使用时需权衡利弊</span><br><span class="line">SAX解析方式：</span><br><span class="line">	核心思想：基于事件流驱动，根据不同需求事件(检索，修改，删除等)去执行不同解析操作，不需要把整个XML 文档加载到内存中</span><br><span class="line">	优点：</span><br><span class="line">		解析效率高；内存占用少</span><br><span class="line">	缺点：</span><br><span class="line">		解析方法复杂，API接口方法复杂，代码量大</span><br><span class="line">		可扩展性差，无法修改XML树内容结构</span><br><span class="line">	适用场景：</span><br><span class="line">		适合XML文档大，解析性能要求高，不需修改 多次访问解析的情况</span><br></pre></td></tr></table></figure>
+
+<h2 id="XML的SAX方式解析"><a href="#XML的SAX方式解析" class="headerlink" title="XML的SAX方式解析"></a>XML的SAX方式解析</h2><p>测试类：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 配置文件中获取类别</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   <span class="keyword">public</span>  <span class="keyword">void</span> <span class="title function_">BusinessStockTypeConfigXMLReader</span><span class="params">()</span> &#123;</span><br><span class="line">       String[] record = <span class="keyword">new</span> <span class="title class_">String</span>[<span class="number">0</span>];</span><br><span class="line">       <span class="keyword">try</span> &#123;</span><br><span class="line">           <span class="comment">// 创建解析器工厂</span></span><br><span class="line">           <span class="comment">//URLDecoder.decode(String s,String s1); 主要作用：解决Http方式get请求无法传输中文字符</span></span><br><span class="line">           <span class="type">File</span> <span class="variable">xmlFile</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">File</span>(URLDecoder.decode(ClassUtility</span><br><span class="line">                   .loadResourceURL(<span class="string">&quot;BusinessStockTypeConfig.xml&quot;</span>).toString(),<span class="string">&quot;UTF-8&quot;</span>)</span><br><span class="line">                   .substring(<span class="number">5</span>));</span><br><span class="line">           <span class="comment">/////E:/xcxk/VISBE_Aliny/build/resources/main/BusinessStockTypeConfig.xml</span></span><br><span class="line">           <span class="comment">//String substring = URLDecoder.decode(ClassUtility</span></span><br><span class="line">           <span class="comment">//        .loadResourceURL(&quot;BusinessStockTypeConfig.xml&quot;).toString())</span></span><br><span class="line">           <span class="comment">//        .substring(5);</span></span><br><span class="line">           <span class="comment">////file:/E:/xcxk/VISBE_Aliny/build/resources/main/BusinessStockTypeConfig.xml</span></span><br><span class="line">           <span class="comment">//String substring2 = URLDecoder.decode(ClassUtility</span></span><br><span class="line">           <span class="comment">//        .loadResourceURL(&quot;BusinessStockTypeConfig.xml&quot;).toString());</span></span><br><span class="line">           <span class="comment">// 创建一个读取工具</span></span><br><span class="line">           <span class="type">SAXReader</span> <span class="variable">reader</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">SAXReader</span>();</span><br><span class="line">           <span class="comment">// 创建一个Document对象</span></span><br><span class="line">           <span class="type">Document</span> <span class="variable">doc</span> <span class="operator">=</span> reader.read(xmlFile);</span><br><span class="line">           <span class="type">Element</span> <span class="variable">id</span> <span class="operator">=</span> doc.elementByID(<span class="string">&quot;I&quot;</span>);</span><br><span class="line">           <span class="type">String</span> <span class="variable">typeName</span> <span class="operator">=</span> id.elementByID(<span class="string">&quot;2&quot;</span>).elementText(<span class="string">&quot;Type_Name&quot;</span>);</span><br><span class="line">           System.out.println(id.toString());</span><br><span class="line">           System.out.println(typeName);</span><br><span class="line">       &#125;  <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">           e.printStackTrace();</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h1><p>中文官网：<a target="_blank" rel="noopener" href="https://blog.redis.com.cn/doc/">Nginx中文文档 (redis.com.cn)</a>   <a target="_blank" rel="noopener" href="https://blog.redis.com.cn/doc/">https://blog.redis.com.cn/doc/</a></p>
+<p>英文官网：<a target="_blank" rel="noopener" href="http://nginx.org/">nginx news</a>  <a target="_blank" rel="noopener" href="http://nginx.org/">http://nginx.org/</a></p>
+<p>学习博客：<a target="_blank" rel="noopener" href="https://blog.csdn.net/private_name/article/details/121189370">(21条消息) SpringBoot整合Shiro框架_koko、的博客-CSDN博客_springboot集成shiro框架</a></p>
+<h1 id="JWT"><a href="#JWT" class="headerlink" title="JWT"></a>JWT</h1><p>JWT(JSON Web Token)是为了在网络应用环境间传递声明而执行的一种基于JSON的开放标准。即<strong>JSON Web令牌</strong>。</p>
+<blockquote>
+<p>JSON Web令牌（JWT）是一种紧凑的、URL安全的方式，用来表示要在双方之间传递的“声明”。JWT中的声明被编码为JSON对象，用作JSON Web签名（JWS）结构的有效内容或JSON Web加密（JWE）结构的明文，使得声明能够被：数字签名、或利用消息认证码（MAC）保护完整性、加密。</p>
+</blockquote>
+<h2 id="JWT构成"><a href="#JWT构成" class="headerlink" title="JWT构成"></a>JWT构成</h2><p>Header：头部</p>
+<p>Claims：声明</p>
+<p>Signature：签名</p>
+<p>JWT由这三部分组成，每一部分都是使用base64url编码的，并使用句点（.）连接起来。这里使用base64url编码而不是普通的base64，是因为base64编码会产生+和&#x2F;，这两个字符在URL中是有特殊意义的，会导致JWT不是URL安全的。</p>
+<h2 id="注册的、公开的、私有的"><a href="#注册的、公开的、私有的" class="headerlink" title="注册的、公开的、私有的"></a>注册的、公开的、私有的</h2><p>在一个<em>声明集</em>当中，一般会有如下注册的<em>声明名字</em>：</p>
+<ul>
+<li><code>iss</code>: （Issuer）签发者</li>
+<li><code>iat</code>: （Issued At）签发时间，用Unix时间戳表示</li>
+<li><code>exp</code>: （Expiration Time）过期时间，用Unix时间戳表示</li>
+<li><code>aud</code>: （Audience）接收该JWT的一方</li>
+<li><code>sub</code>: （Subject）该JWT的主题</li>
+<li><code>nbf</code>: （Not Before）不要早于这个时间</li>
+<li><code>jti</code>: （JWT ID）用于标识JWT的唯一ID</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">生成token:</span><br><span class="line">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ</span><br><span class="line">xcxk目前引用生成token:</span><br><span class="line">eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0eXBlIjoibG9naXN0aWNzTWluaVByb2dyYW06d3gzMGRlZTMwMzUyNzExZDAxIiwiaWF0IjoxNjcxNTE5NTc1LCJleHAiOjE2NzIxMjQzNzUsImF1ZCI6IjIiLCJpc3MiOiIxIiwic3ViIjoiMjFjMmQwNjAtOWI0OS00NDZhLWFhNzItMGQ5ODQwODY4OWRiIn0.WBAEMPjo4PWq3i6jqSAsiO7-7td3jFo7k3-D2fhFJ68</span><br></pre></td></tr></table></figure>
+
+<h2 id="不安全的JWT"><a href="#不安全的JWT" class="headerlink" title="不安全的JWT"></a>不安全的JWT</h2><p>签名为空的JWT</p>
+<h2 id="和session的区别"><a href="#和session的区别" class="headerlink" title="和session的区别"></a>和session的区别</h2><blockquote>
+<p>session需要在服务器中存储标记用户的信息，比如<code>session_id</code>，而JWT不需要。</p>
+<p>JWT在服务器端需要一定量的计算，而session方式一般不需要。</p>
+<p>在分布式系统中，使用Session的方式，需要在多台服务器之间<code>session id</code>，增加了服务器的内存和IO压力。而JWT方式则免去了同步的麻烦。因为用户的状态已经存储在客户端中了，虽然增加了一些计算开销，但是与IO开销比起来，还是要好很多的。</p>
+</blockquote>
+<h2 id="单点登录"><a href="#单点登录" class="headerlink" title="单点登录"></a>单点登录</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set</span>-Cookie: jwt=header.claims.signature; HttpOnly; max-age=<span class="number">980000</span>; domain=.yourdomain.com</span><br></pre></td></tr></table></figure>
+
+
+
+<p>作者：sladeliu<br>链接：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/bc8d48842eea">https://www.jianshu.com/p/bc8d48842eea</a><br>来源：简书<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<h2 id="SpringBoot整合JWT"><a href="#SpringBoot整合JWT" class="headerlink" title="SpringBoot整合JWT"></a>SpringBoot整合JWT</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/AkiraNicky/article/details/99307713">SpringBoot整合JWT_joybinny的博客-CSDN博客_springboot整合jwt</a></p>
+<h2 id="整合注意事项"><a href="#整合注意事项" class="headerlink" title="整合注意事项"></a>整合注意事项</h2><blockquote>
+<p>1.token校验的白名单</p>
+<p>​	登录&#x2F;注册</p>
+<p>​		手机登录&#x2F;注册</p>
+<p>​		web登录&#x2F;注册</p>
+<p>​	接口穿透</p>
+</blockquote>
+<h1 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h1><h2 id="关键字：渐进式hash"><a href="#关键字：渐进式hash" class="headerlink" title="关键字：渐进式hash"></a>关键字：渐进式hash</h2><h2 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">基础知识</span><br><span class="line">    数据库：<span class="number">16</span></span><br><span class="line">    	字典：<span class="number">1</span></span><br><span class="line">    		hash表：<span class="number">2</span></span><br><span class="line">    		目的：扩缩容</span><br><span class="line">    			size(大小)</span><br><span class="line">    			sizemask(哈希表大小掩码，用于计算索引值)</span><br><span class="line">    			used(该哈希表已有节点的数量)</span><br><span class="line">    			dictEntry数组：<span class="number">1</span></span><br><span class="line">    				键值对</span><br><span class="line">    				指向下一个哈希表节点，形成链表</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="Shiro"><a href="#Shiro" class="headerlink" title="Shiro"></a>Shiro</h1><h2 id="公司软件-microservice-简单介绍"><a href="#公司软件-microservice-简单介绍" class="headerlink" title="公司软件 microservice 简单介绍"></a>公司软件 microservice 简单介绍</h2><p>技术支持</p>
+<p>nodeJS + knex(一个orm框架使用knex可以用javascripti语法指令来操作sql语句这大大降低了前<br>端工程师操作进行数据库操作的难度但是需要注意的是kex最终还是会生成sql语句和数据<br>库进行交互)</p>
+<p>基本要素：</p>
+<p>dashboardcm:<strong>数据管理</strong></p>
+<p>authcm:<strong>身份验证</strong></p>
+<p>permissioncm:<strong>用户权限</strong></p>
+<h1 id="-1"><a href="#-1" class="headerlink" title=""></a></h1><h1 id="Win常用插件-Edge-x2F-谷歌"><a href="#Win常用插件-Edge-x2F-谷歌" class="headerlink" title="Win常用插件-Edge&#x2F;谷歌"></a>Win常用插件-Edge&#x2F;谷歌</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1.AdGuard 广告拦截器</span><br><span class="line">2.GitHub加速</span><br><span class="line">3.Infinity 新标签页</span><br><span class="line">4.Infinity 新标签页</span><br></pre></td></tr></table></figure>
+
+<h1 id="GIT"><a href="#GIT" class="headerlink" title="GIT"></a>GIT</h1><h2 id="git-log（git-log命令全解析-小太阳…的博客-CSDN博客）"><a href="#git-log（git-log命令全解析-小太阳…的博客-CSDN博客）" class="headerlink" title="git log（git log命令全解析_小太阳…的博客-CSDN博客）"></a>git log（<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_46074961/article/details/126400431">git log命令全解析_小太阳…的博客-CSDN博客</a>）</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">// 拉去项目所有日志</span><br><span class="line">git log --date=iso --pretty=format:’&quot;%h&quot;,&quot;%an&quot;,&quot;%ad&quot;,&quot;%s&quot;’ &gt;&gt; ./commit.csv</span><br><span class="line">// 按时间拉取</span><br><span class="line">--after=&quot;xx-xx-xx&quot;</span><br><span class="line">--before=&quot;xx-xx-xx&quot;</span><br><span class="line">git log  --date=iso --after=&quot;2023-2-2&quot; --before=&quot;2023-2-28&quot;  --pretty=format:’&quot;%h&quot;,&quot;%an&quot;,&quot;%ad&quot;,&quot;%s&quot;’ &gt;&gt; ./commt.csv</span><br><span class="line">// 按作者拉取</span><br><span class="line">--author=&quot;xxx&quot;</span><br><span class="line">// 按描述拉取</span><br><span class="line">--grep=&quot;xxx&quot;</span><br></pre></td></tr></table></figure>
+
+
+  </div>
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-05-04T15:00:56+08:00">2023-05-04</time>
-        
-      </div>
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        <div>
-          <a class='readmore' href='/2023/05/04/test/' itemprop="url">
-            Read More
-          </a>
-        </div>
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-05-04T15:08:38+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：May 4, 2023</p>
+  </a>
 </div>
 
-          </div>
         
       
+        
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
     
-  </section>
-  
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/05/04/test/&title=JAVA基础及应用 - My Blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
     
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/05/04/test/&title=JAVA基础及应用 - My Blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/05/04/test/&title=JAVA基础及应用 - My Blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
   
+  
+
+  
+    <div class="prev-next">
+      
+        <a class='prev' href='/2023/05/10/GOF/'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>GOF</p>
+          <p class='content'>GOF
+Creational 模式 (创建型)构建模式(Builder)概览：
+
+UML图：
+Structural模式(结构型)适配器模式（Adapter）生产实例：
+
+
+springboot中...</p>
+        </a>
+      
+      
+    </div>
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
+  
+
+
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2023/05/04/test/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
+    
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
 
 
 </div>
@@ -2672,97 +2965,48 @@ Adaptee（适配者类）  需...
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
     
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/Logo-NavBar@3x.png'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">My Blog</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:me@xxx.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-
-    
-  
-
-  
-    
-    
-      
-
-    
-  
-
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F"><span class="toc-text">创建型模式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F"><span class="toc-text">单例模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F"><span class="toc-text">简单工厂模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F"><span class="toc-text">工厂模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F"><span class="toc-text">抽象工厂模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F"><span class="toc-text">建造者模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F"><span class="toc-text">原型模式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E6%9E%84%E5%9E%8B%E6%A8%A1%E5%BC%8F"><span class="toc-text">结构型模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%8C%E4%B8%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F"><span class="toc-text">行为型模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%BB%E8%BE%91-x2F-%E6%96%AD%E8%B7%AF%E4%B8%8E%EF%BC%8C%E6%88%96-%E5%85%B3%E7%B3%BB"><span class="toc-text">逻辑&#x2F;断路与，或 关系</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JAVA-Double%E7%B1%BB%E5%9E%8B%E4%B8%A2%E5%A4%B1%E7%B2%BE%E5%BA%A6%E9%97%AE%E9%A2%98"><span class="toc-text">JAVA Double类型丢失精度问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#StringBuilder"><span class="toc-text">StringBuilder</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%88%87%E5%88%86"><span class="toc-text">字符串切分</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E7%BB%84%E8%BD%AC%E9%9B%86%E5%90%88"><span class="toc-text">数组转集合</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Stream%E6%B5%81%E5%BA%94%E7%94%A8"><span class="toc-text">Stream流应用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mybatis-plus%E5%88%86%E9%A1%B5%E6%8F%92%E4%BB%B6%E5%BA%94%E7%94%A8"><span class="toc-text">mybatis-plus分页插件应用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%87%E6%BB%A4%E5%99%A8%E6%89%A7%E8%A1%8C%E6%98%BE%E7%A4%BA%E8%AE%BF%E9%97%AE%E7%B1%BB%E7%9B%B8%E5%85%B3%E4%BF%A1%E6%81%AF"><span class="toc-text">过滤器执行显示访问类相关信息</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text"></span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JSONArray%E6%8C%89%E6%8C%87%E5%AE%9A%E5%AD%97%E6%AE%B5%E6%8E%92%E5%BA%8F"><span class="toc-text">JSONArray按指定字段排序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#FastJSON"><span class="toc-text">FastJSON</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-linux%E5%91%BD%E4%BB%A4git-log%E5%91%BD%E4%BB%A4%E5%85%A8%E8%A7%A3%E6%9E%90-%E5%B0%8F%E5%A4%AA%E9%98%B3%E2%80%A6%E7%9A%84%E5%8D%9A%E5%AE%A2-CSDN%E5%8D%9A%E5%AE%A2"><span class="toc-text">1.linux命令git log命令全解析_小太阳…的博客-CSDN博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Linux-%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE"><span class="toc-text">2.Linux-网卡配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#springboot%E6%90%AD%E5%BB%BA"><span class="toc-text">springboot搭建</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#elasticsearch"><span class="toc-text">elasticsearch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E5%BA%94%E7%94%A8"><span class="toc-text">函数应用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%97%B6%E9%97%B4%E5%87%BD%E6%95%B0"><span class="toc-text">1.时间函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%A4%A7%E5%86%99%E5%87%BD%E6%95%B0"><span class="toc-text">2.大写函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%88%86%E7%BB%84%E6%95%B0%E9%87%8F%E5%87%BD%E6%95%B0"><span class="toc-text">3.分组数量函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7"><span class="toc-text">4.运算符优先级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-OR-%E5%92%8C-AND%E4%BC%98%E5%85%88%E7%BA%A7%E8%AF%B4%E6%98%8E"><span class="toc-text">5.OR 和 AND优先级说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-InnoDB%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F"><span class="toc-text">6.InnoDB数据库存储格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-mysql-root%E7%94%A8%E6%88%B7%E7%BB%99%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%E6%8E%88%E6%9D%83"><span class="toc-text">7.mysql root用户给普通用户授权</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-mysql%E5%A4%96%E9%94%AE%E7%BA%A6%E6%9D%9F%E6%A3%80%E6%9F%A5%E5%85%B3%E9%97%AD%E5%8F%8A%E5%BC%80%E5%90%AF"><span class="toc-text">8.mysql外键约束检查关闭及开启</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-%E7%BB%84%E5%90%88%E5%A4%9A%E6%9D%A1%E8%AE%B0%E5%BD%95%E5%90%88%E5%B9%B6%E4%B8%BA%E4%B8%80%E8%A1%8C%E5%87%BD%E6%95%B0group-concat"><span class="toc-text">9.组合多条记录合并为一行函数group_concat</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10%E6%96%B0%E5%A2%9E%E5%AD%97%E6%AE%B5"><span class="toc-text">10新增字段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Server%E5%B1%82%E7%89%B9%E6%80%A7"><span class="toc-text">Server层特性</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#binlog"><span class="toc-text">binlog</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%99%E5%85%A5%E6%9C%BA%E5%88%B6"><span class="toc-text">写入机制</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E5%8F%82%E6%95%B0"><span class="toc-text">相关参数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F"><span class="toc-text">策略模式</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6"><span class="toc-text">主从复制</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#XML%E7%9A%84SAX%E6%96%B9%E5%BC%8F%E8%A7%A3%E6%9E%90"><span class="toc-text">XML的SAX方式解析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#JWT%E6%9E%84%E6%88%90"><span class="toc-text">JWT构成</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E5%86%8C%E7%9A%84%E3%80%81%E5%85%AC%E5%BC%80%E7%9A%84%E3%80%81%E7%A7%81%E6%9C%89%E7%9A%84"><span class="toc-text">注册的、公开的、私有的</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E5%AE%89%E5%85%A8%E7%9A%84JWT"><span class="toc-text">不安全的JWT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%92%8Csession%E7%9A%84%E5%8C%BA%E5%88%AB"><span class="toc-text">和session的区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95"><span class="toc-text">单点登录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SpringBoot%E6%95%B4%E5%90%88JWT"><span class="toc-text">SpringBoot整合JWT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B4%E5%90%88%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-text">整合注意事项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E5%AD%97%EF%BC%9A%E6%B8%90%E8%BF%9B%E5%BC%8Fhash"><span class="toc-text">关键字：渐进式hash</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-text">数据结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AC%E5%8F%B8%E8%BD%AF%E4%BB%B6-microservice-%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D"><span class="toc-text">公司软件 microservice 简单介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#git-log%EF%BC%88git-log%E5%91%BD%E4%BB%A4%E5%85%A8%E8%A7%A3%E6%9E%90-%E5%B0%8F%E5%A4%AA%E9%98%B3%E2%80%A6%E7%9A%84%E5%8D%9A%E5%AE%A2-CSDN%E5%8D%9A%E5%AE%A2%EF%BC%89"><span class="toc-text">git log（git log命令全解析_小太阳…的博客-CSDN博客）</span></a></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2797,7 +3041,7 @@ Adaptee（适配者类）  需...
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2806,15 +3050,15 @@ Adaptee（适配者类）  需...
     // header
     var l_header=document.getElementById("l_header");
     
-    l_header.classList.remove("show");
+    l_header.classList.add("show");
     
     
       // cover
       var cover_wrapper=document.querySelector('#l_cover .cover-wrapper');
       var scroll_down=document.getElementById('scroll-down');
-      cover_wrapper.id="full";
-      cover_wrapper.style.display="";
-      scroll_down.style.display="";
+      cover_wrapper.id="none";
+      cover_wrapper.style.display="none";
+      scroll_down.style.display="none";
     
   
 </script>
@@ -3311,7 +3555,7 @@ Adaptee（适配者类）  需...
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"My Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"My Blog"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"My Blog","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"My Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"My Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"My Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"My Blog"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/05/04/test/","name":"JAVA基础及应用"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"My Blog","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"My Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"JAVA基础及应用","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/05/04/test/"},"author":{"@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"My Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/05/04/test/","wordCount":0,"datePublished":"2023-05-04T07:00:56.737Z","dateModified":"2023-05-04T07:08:38.669Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 

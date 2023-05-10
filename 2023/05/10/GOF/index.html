@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.7.10">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="http://example.com/"/>
+  
+  <link rel="canonical" href="http://example.com/2023/05/10/gof/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -31,15 +31,19 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>My Blog</title>
-  <meta name="keywords" content="">
+  <title>GOF - My Blog</title>
+  <meta name="keywords" content="null">
   <meta desc name="description" content="My Blog - 抬起_头来 - My Blog">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="My Blog">
-<meta property="og:url" content="http://example.com/index.html">
+  
+<meta property="og:type" content="article">
+<meta property="og:title" content="GOF">
+<meta property="og:url" content="http://example.com/2023/05/10/GOF/index.html">
 <meta property="og:site_name" content="My Blog">
+<meta property="og:description" content="GOF Creational 模式 (创建型)构建模式(Builder)概览：  UML图： Structural模式(结构型)适配器模式（Adapter）生产实例：   springboot中的HandleAdapter HttpServlet   适配结构：   类适配模式 对象适配模式   基本组织：   Target（目标抽象类）  原本支持的业务类 Adaptee（适配者类）  需要适配">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2023-05-10T02:35:32.000Z">
+<meta property="article:modified_time" content="2023-05-10T02:39:52.348Z">
 <meta property="article:author" content="抬起_头来">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -2162,7 +2166,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin begin-->
     
     <!-- Custom Files bodyBegin end-->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2431,7 +2435,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="full" class='cover-wrapper  dock' style="display: ;">
+      <div id="none" class='cover-wrapper post dock' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg"></div>
 
@@ -2496,7 +2500,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </div>
 </div>
 
-        <div id="scroll-down" style="display: ;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+        <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
       </div>
     
   
@@ -2506,23 +2510,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-  
-  <section class="post-list">
-    
-      
-        
-        
-          
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
   <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/10/GOF/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="My Blog">
@@ -2532,136 +2520,360 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/05/10/GOF/"  itemprop="url">
-        GOF
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
     
-      
+    
+      <h1 class="title" itemprop="name headline">
         GOF
-Creational 模式 (创建型)构建模式(Builder)概览：
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">请设置文章作者</p>
+  </a>
+</div>
 
-UML图：
-Structural模式(结构型)适配器模式（Adapter）生产实例：
+          
+        
+          
+            
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-05-10T10:35:32+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：May 10, 2023</p>
+  </a>
+</div>
+
+          
+        
+          
+            
 
 
-springboot中的HandleAdapter
-HttpServlet
 
-
-适配结构：
-
-
-类适配模式
-对象适配模式
-
-
-基本组织：
-
-
-Target（目标抽象类）  原本支持的业务类
-Adaptee（适配者类）  需...
-      
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
     
   </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h1 id="GOF"><a href="#GOF" class="headerlink" title="GOF"></a>GOF</h1><p><img src="/img%5Cimage-20230506113623552.png" class="lazyload" data-srcset="/img%5Cimage-20230506113623552.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20230506113623552"></p>
+<h2 id="Creational-模式-创建型"><a href="#Creational-模式-创建型" class="headerlink" title="Creational 模式 (创建型)"></a>Creational 模式 (创建型)</h2><h3 id="构建模式-Builder"><a href="#构建模式-Builder" class="headerlink" title="构建模式(Builder)"></a>构建模式(Builder)</h3><p>概览：</p>
+<p><img src="/img%5Cimage-20230505113130483.png" class="lazyload" data-srcset="/img%5Cimage-20230505113130483.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20230505113130483"></p>
+<p>UML图：</p>
+<h2 id="Structural模式-结构型"><a href="#Structural模式-结构型" class="headerlink" title="Structural模式(结构型)"></a>Structural模式(结构型)</h2><h3 id="适配器模式（Adapter）"><a href="#适配器模式（Adapter）" class="headerlink" title="适配器模式（Adapter）"></a>适配器模式（Adapter）</h3><p>生产实例：</p>
+<blockquote>
+<ol>
+<li><strong>springboot中的HandleAdapter</strong></li>
+<li><strong>HttpServlet</strong></li>
+</ol>
+</blockquote>
+<p>适配结构：</p>
+<blockquote>
+<ol>
+<li>类适配模式</li>
+<li>对象适配模式</li>
+</ol>
+</blockquote>
+<p>基本组织：</p>
+<blockquote>
+<ol>
+<li>Target（目标抽象类）  原本支持的业务类</li>
+<li>Adaptee（适配者类）  需要适配的业务类   </li>
+<li>Adapter（适配器类）  最终实现的业务类</li>
+</ol>
+</blockquote>
+<p>UML图例：</p>
+<p><img src="/img%5Cimage-20230506102310460.png" class="lazyload" data-srcset="/img%5Cimage-20230506102310460.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20230506102310460"></p>
+<p>优缺点：</p>
+<blockquote>
+<p>优点：</p>
+<p>​	1.可以让任何两个没有关联的类一起运行;</p>
+<p>​	2.提高了类的复用;</p>
+<p>​	3.增加了类的透明度;</p>
+<p>​	 4.灵活性好</p>
+<p>缺点：</p>
+<p>​	1.过多地使用适配器，会让系统非常零乱，不易整体进行把握。比如，明明看到调用的是 A 接口，其实内部被适配成了 B 接口的实现，一个系统如果太多出现这种情况，无异于一场灾难。因此如果不是很有必要，可以不使用适配器，而是直接对系统进行重构;</p>
+<p>​	 2.由于 JAVA 至多继承一个类，所以至多只能适配一个适配者类，而且目标类必须是抽象类</p>
+</blockquote>
+<p>实例UML图：</p>
+<p><img src="/img%5Cimage-20230510093354386.png" class="lazyload" data-srcset="/img%5Cimage-20230510093354386.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20230510093354386"></p>
+<p>业务说明：</p>
+<blockquote>
+<p>我们有一个 <em>MediaPlayer</em> 接口和一个实现了 <em>MediaPlayer</em> 接口的实体类 <em>AudioPlayer</em>。默认情况下，<em>AudioPlayer</em> 可以播放 mp3 格式的音频文件。</p>
+<p>我们还有另一个接口 <em>AdvancedMediaPlayer</em> 和实现了 <em>AdvancedMediaPlayer</em> 接口的实体类。该类可以播放 vlc 和 mp4 格式的文件。</p>
+<p>我们想要让 <em>AudioPlayer</em> 播放其他格式的音频文件。为了实现这个功能，我们需要创建一个实现了 <em>MediaPlayer</em> 接口的适配器类 <em>MediaAdapter</em>，并使用 <em>AdvancedMediaPlayer</em> 对象来播放所需的格式。</p>
+<p><em>AudioPlayer</em> 使用适配器类 <em>MediaAdapter</em> 传递所需的音频类型，不需要知道能播放所需格式音频的实际类。<em>AdapterPatternDemo</em> 类使用 <em>AudioPlayer</em> 类来播放各种格式。</p>
+</blockquote>
+<p>一、被适配接口</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">MediaPlayer</span> &#123;</span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">play</span><span class="params">(String audioType, String fileName)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>二、需适配的接口</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">AdvancedMediaPlayer</span> &#123;</span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">playVlc</span><span class="params">(String fileName)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">playMp4</span><span class="params">(String fileName)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>三、需适配的接口实现</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Mp4Player</span> <span class="keyword">implements</span> <span class="title class_">AdvancedMediaPlayer</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">playVlc</span><span class="params">(String fileName)</span> &#123;</span><br><span class="line">	<span class="comment">//    什么不都做</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">playMp4</span><span class="params">(String fileName)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Mp4Player播放器播放MP4格式的音乐:&quot;</span> + fileName);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">VlcPlayer</span> <span class="keyword">implements</span> <span class="title class_">AdvancedMediaPlayer</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">playVlc</span><span class="params">(String fileName)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;VlcPlayer播放器播放VLC格式的音乐:&quot;</span> + fileName);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">playMp4</span><span class="params">(String fileName)</span> &#123;</span><br><span class="line">    <span class="comment">//    什么不都做</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>四、适配器类</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MediaAdapter</span> <span class="keyword">implements</span> <span class="title class_">MediaPlayer</span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//需适配的接口类</span></span><br><span class="line">    <span class="keyword">private</span> AdvancedMediaPlayer advancedMediaPlayer;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">MediaAdapter</span><span class="params">(String audioType)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (audioType.equals(<span class="string">&quot;mp4&quot;</span>)) &#123;</span><br><span class="line">            advancedMediaPlayer = <span class="keyword">new</span> <span class="title class_">Mp4Player</span>();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (audioType.equals(<span class="string">&quot;vlc&quot;</span>)) &#123;</span><br><span class="line">            advancedMediaPlayer = <span class="keyword">new</span> <span class="title class_">VlcPlayer</span>();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">play</span><span class="params">(String audioType, String fileName )</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="string">&quot;mp4&quot;</span>.equals(audioType)) &#123;</span><br><span class="line">            advancedMediaPlayer.playMp4(fileName);</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            advancedMediaPlayer.playVlc(fileName);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>五、被适配接口实现类</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AudioPlayer</span> <span class="keyword">implements</span> <span class="title class_">MediaPlayer</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> MediaAdapter mediaAdapter;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">play</span><span class="params">(String audioType, String fileName)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="string">&quot;mp3&quot;</span>.equals(audioType)) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;AudioPlayer播放器播放MP3格式的音乐:&quot;</span> + fileName);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//mediaAdapter 提供了播放其他文件格式的支持</span></span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(audioType.equalsIgnoreCase(<span class="string">&quot;vlc&quot;</span>)</span><br><span class="line">                || audioType.equalsIgnoreCase(<span class="string">&quot;mp4&quot;</span>))&#123;</span><br><span class="line">            mediaAdapter = <span class="keyword">new</span> <span class="title class_">MediaAdapter</span>(audioType);</span><br><span class="line">            mediaAdapter.play(audioType, fileName);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;Invalid media. &quot;</span>+</span><br><span class="line">                    audioType + <span class="string">&quot; format not supported&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>六、测试类</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AdapterPatternDemo</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">AudioPlayer</span> <span class="variable">audioPlayer</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">AudioPlayer</span>();</span><br><span class="line"></span><br><span class="line">        audioPlayer.play(<span class="string">&quot;mp3&quot;</span>, <span class="string">&quot;beyond the horizon.mp3&quot;</span>);</span><br><span class="line">        audioPlayer.play(<span class="string">&quot;mp4&quot;</span>, <span class="string">&quot;alone.mp4&quot;</span>);</span><br><span class="line">        audioPlayer.play(<span class="string">&quot;vlc&quot;</span>, <span class="string">&quot;far far away.vlc&quot;</span>);</span><br><span class="line">        audioPlayer.play(<span class="string">&quot;avi&quot;</span>, <span class="string">&quot;mind me.avi&quot;</span>);</span><br><span class="line">        </span><br><span class="line">        <span class="comment">//AudioPlayer播放器播放MP3格式的音乐:beyond the horizon.mp3</span></span><br><span class="line">        <span class="comment">//Mp4Player播放器播放MP4格式的音乐:alone.mp4</span></span><br><span class="line">        <span class="comment">//VlcPlayer播放器播放VLC格式的音乐:far far away.vlc</span></span><br><span class="line">        <span class="comment">//Invalid media. avi format not supported</span></span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h3 id="代理模式（Proxy）"><a href="#代理模式（Proxy）" class="headerlink" title="代理模式（Proxy）"></a>代理模式（Proxy）</h3><p>概览：</p>
+<p><img src="/img%5Cimage-20230506171325912.png" class="lazyload" data-srcset="/img%5Cimage-20230506171325912.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20230506171325912"></p>
+<p>代理模式：</p>
+<blockquote>
+<ol>
+<li>静态代理</li>
+<li>动态代理</li>
+</ol>
+</blockquote>
+<p>优缺点：</p>
+<blockquote>
+<p>优点：</p>
+<ol>
+<li><p>可以在客户端不知道的情况下控制服务对象，在客户端与目标对象之间起到一个中介作用和保护目标对象的作用；</p>
+</li>
+<li><p>代理模式能将客户端与目标对象分离，在一定程度上降低了系统的耦合度，增加了程序的可扩展性。</p>
+</li>
+</ol>
+<p>缺点：</p>
+<pre><code>1. 代理模式会造成系统设计中类的数量增加，增加了系统的复杂度；
+1. 在客户端和目标对象之间增加一个代理对象，会造成请求处理速度变慢。
+</code></pre>
+</blockquote>
+<p>生产实例：</p>
+<blockquote>
+<ol>
+<li>JDKMobileProxy-JDK动态代理</li>
+<li>CGLIB代理</li>
+</ol>
+</blockquote>
+<h3 id="Decorator（装饰器模式）"><a href="#Decorator（装饰器模式）" class="headerlink" title="Decorator（装饰器模式）"></a>Decorator（装饰器模式）</h3><p>概览：</p>
+<p><img src="/img%5Cimage-20230506172050412.png" class="lazyload" data-srcset="/img%5Cimage-20230506172050412.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20230506172050412"></p>
+<p>区别：</p>
+<blockquote>
+<p>代理模式更在意对外层包装类的调用。在装饰器模式中，每个组件只提供部分功能，组件经常以一种链式嵌套的方式动态的组合在一起，装饰器模式并不在意是否要隐藏另一个被装饰的对象，而是在意多个组件合成后提供的整体功能。</p>
+</blockquote>
+<p>结构：</p>
+<table>
+<thead>
+<tr>
+<th>角色</th>
+<th>角色</th>
+<th>角色</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>抽象构件Component</td>
+<td>抽象构件Component</td>
+<td>定义一个抽象接口，规范目标对象</td>
+</tr>
+<tr>
+<td>具体构件Concrete Component</td>
+<td>抽象构件的接口实现类</td>
+<td>定义一个目标对象，也就是将要接收附加功能的类</td>
+</tr>
+<tr>
+<td>抽象装饰者Decorator</td>
+<td>继承或实现抽象构件，持有一个抽象构件类的引用实例</td>
+<td>定义一个与抽象构件接口一致的接口，以便具体装饰者添加功能</td>
+</tr>
+<tr>
+<td>具体装饰者Concrete Decorator</td>
+<td>实现抽象装饰者的方法</td>
+<td>实现抽象装饰者的方法</td>
+</tr>
+</tbody></table>
+<p>UML图：</p>
+<p><img src="/img%5Cimage-20230506173437314.png" class="lazyload" data-srcset="/img%5Cimage-20230506173437314.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20230506173437314"></p>
+<p>JDK实例：</p>
+<p><img src="E:\myFile\MyHexo\source\img\image-20230506174036942.png" class="lazyload" data-srcset="E:\myFile\MyHexo\source\img\image-20230506174036942.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20230506174036942"></p>
+<p>代码演示：</p>
+<p>一、抽线目标类：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">Shape</span> &#123;</span><br><span class="line">    <span class="keyword">void</span> <span class="title function_">draw</span><span class="params">()</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>二、抽象目标类实现：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Circle</span> <span class="keyword">implements</span> <span class="title class_">Shape</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">draw</span><span class="params">()</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Circle : Shape&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Rectangle</span> <span class="keyword">implements</span> <span class="title class_">Shape</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">draw</span><span class="params">()</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Rectangle : Shape&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>三、抽象装饰者</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span>  <span class="keyword">class</span> <span class="title class_">ShapeDecorator</span> <span class="keyword">implements</span> <span class="title class_">Shape</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> Shape decoratorShape;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">ShapeDecorator</span><span class="params">(Shape decoratorShape)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.decoratorShape = decoratorShape;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">draw</span><span class="params">()</span> &#123;</span><br><span class="line">        decoratorShape.draw();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>四、抽象装饰者实现类</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">RedShapeDecorator</span> <span class="keyword">extends</span> <span class="title class_">ShapeDecorator</span> &#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">RedShapeDecorator</span><span class="params">(Shape decoratorShape)</span> &#123;</span><br><span class="line">        <span class="built_in">super</span>(decoratorShape);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">setRedBorder</span><span class="params">(Shape decoratedShape)</span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Border Color: Red&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">draw</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="built_in">super</span>.draw();</span><br><span class="line">        setRedBorder(decoratorShape);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>五、测试类</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Circle</span> <span class="variable">circle</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Circle</span>();</span><br><span class="line">        circle.draw();</span><br><span class="line"></span><br><span class="line">        <span class="type">Rectangle</span> <span class="variable">rectangle</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Rectangle</span>();</span><br><span class="line">        rectangle.draw();</span><br><span class="line"></span><br><span class="line">        <span class="type">ShapeDecorator</span> <span class="variable">redShapeDecorator</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">RedShapeDecorator</span>(<span class="keyword">new</span> <span class="title class_">Circle</span>());</span><br><span class="line">        redShapeDecorator.draw();</span><br><span class="line"></span><br><span class="line">        <span class="type">ShapeDecorator</span> <span class="variable">redShapeDecorator1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">RedShapeDecorator</span>(<span class="keyword">new</span> <span class="title class_">Rectangle</span>());</span><br><span class="line">        redShapeDecorator1.draw();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//控制台输出</span></span><br><span class="line"><span class="comment">//Circle : Shape</span></span><br><span class="line"><span class="comment">//Rectangle : Shape</span></span><br><span class="line"><span class="comment">//Circle : Shape</span></span><br><span class="line"><span class="comment">//Border Color: Red</span></span><br><span class="line"><span class="comment">//Rectangle : Shape</span></span><br><span class="line"><span class="comment">//Border Color: Red</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="behavioral模式-行为型"><a href="#behavioral模式-行为型" class="headerlink" title="behavioral模式(行为型)"></a>behavioral模式(行为型)</h2>
+  </div>
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-05-10T10:35:32+08:00">2023-05-10</time>
-        
-      </div>
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        <div>
-          <a class='readmore' href='/2023/05/10/GOF/' itemprop="url">
-            Read More
-          </a>
-        </div>
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-05-10T10:39:52+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：May 10, 2023</p>
+  </a>
 </div>
 
-          </div>
         
       
         
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/05/04/test/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="My Blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="My Blog">
-    <meta itemprop="description" content="">
-  </span>
-  
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/05/04/test/"  itemprop="url">
-        JAVA基础及应用
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
     
       
-        中英文切换：ctrl + shift + F
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/05/10/GOF/&title=GOF - My Blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/05/10/GOF/&title=GOF - My Blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/05/10/GOF/&title=GOF - My Blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2023/05/04/test/'>
+          <p class='title'>JAVA基础及应用<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>中英文切换：ctrl + shift + F
 学习路线GOF(23种设计模式)创建型模式单例模式12//饿汉式//懒汉式
 
-简单工厂模式123456//静态工厂类//  维护一个静态方法，根据参数返回具体产品类的实例(返回类型是抽象产品类型)。//抽象产品类//  定义产品字段和方法(操作数a,b和运算方法result())//具体产品类//  继承抽象产品类，实现具体运算方法
-
-工厂模式1...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-05-04T15:00:56+08:00">2023-05-04</time>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/05/04/test/' itemprop="url">
-            Read More
-          </a>
-        </div>
+简单工厂模式123456//静态工厂类//  维护一个静态方法，根据参...</p>
+        </a>
       
     </div>
   
-
-</div>
-
-          </div>
-        
-      
-    
-  </section>
+  <!-- Custom Files postEnd begin-->
   
-    
+  <!-- Custom Files postEnd end-->
+</article>
+
+
   
+
+
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2023/05/10/GOF/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
+    
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
 
 
 </div>
@@ -2672,97 +2884,48 @@ Adaptee（适配者类）  需...
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
     
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/Logo-NavBar@3x.png'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">My Blog</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:me@xxx.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-
-    
-  
-
-  
-    
-    
-      
-
-    
-  
-
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Creational-%E6%A8%A1%E5%BC%8F-%E5%88%9B%E5%BB%BA%E5%9E%8B"><span class="toc-text">Creational 模式 (创建型)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E5%BB%BA%E6%A8%A1%E5%BC%8F-Builder"><span class="toc-text">构建模式(Builder)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Structural%E6%A8%A1%E5%BC%8F-%E7%BB%93%E6%9E%84%E5%9E%8B"><span class="toc-text">Structural模式(结构型)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%EF%BC%88Adapter%EF%BC%89"><span class="toc-text">适配器模式（Adapter）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%EF%BC%88Proxy%EF%BC%89"><span class="toc-text">代理模式（Proxy）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Decorator%EF%BC%88%E8%A3%85%E9%A5%B0%E5%99%A8%E6%A8%A1%E5%BC%8F%EF%BC%89"><span class="toc-text">Decorator（装饰器模式）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#behavioral%E6%A8%A1%E5%BC%8F-%E8%A1%8C%E4%B8%BA%E5%9E%8B"><span class="toc-text">behavioral模式(行为型)</span></a></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2797,7 +2960,7 @@ Adaptee（适配者类）  需...
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2806,15 +2969,15 @@ Adaptee（适配者类）  需...
     // header
     var l_header=document.getElementById("l_header");
     
-    l_header.classList.remove("show");
+    l_header.classList.add("show");
     
     
       // cover
       var cover_wrapper=document.querySelector('#l_cover .cover-wrapper');
       var scroll_down=document.getElementById('scroll-down');
-      cover_wrapper.id="full";
-      cover_wrapper.style.display="";
-      scroll_down.style.display="";
+      cover_wrapper.id="none";
+      cover_wrapper.style.display="none";
+      scroll_down.style.display="none";
     
   
 </script>
@@ -3311,7 +3474,7 @@ Adaptee（适配者类）  需...
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"My Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"My Blog"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"My Blog","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"My Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"My Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"My Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"My Blog"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/05/10/GOF/","name":"GOF"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"My Blog","url":"http://example.com/","keywords":null,"description":"","author":{"@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":""},"publisher":{"@type":"Organization","name":"My Blog","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"GOF","description":"","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/05/10/GOF/"},"author":{"@type":"Person","name":"抬起_头来","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"My Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/05/10/GOF/","wordCount":0,"datePublished":"2023-05-10T02:35:32.000Z","dateModified":"2023-05-10T02:39:52.348Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
